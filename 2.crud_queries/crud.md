@@ -23,7 +23,10 @@ db.users.insert({name: 'xyz', email: 'abc@gmail.com'});
 
 ##### practice(5 min)
 1. create a database, a collection inside that database and insert 1 document into that collection.
-
+use timepass
+db.createCollection("cakes")
+db.cakes.insert({name:"black",quantity:50})
+show collections
 
 ### Read(5 min)
 
